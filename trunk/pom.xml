@@ -2,22 +2,21 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>net.ogalab</groupId>
   <artifactId>SimpleUtil-linux</artifactId>
-  <version>6.0.3</version>
+  <version>8.0.3</version>
   
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>1.6</maven.compiler.source>
-    <maven.compiler.target>1.6</maven.compiler.target>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
  
   <dependencies>
-
     <dependency>
       <groupId>org.apache.commons</groupId>
       <artifactId>commons-exec</artifactId>
       <version>1.0.1</version>
     </dependency>
-
+  
     <dependency>
       <groupId>org.apache.commons</groupId>
       <artifactId>commons-io</artifactId>
@@ -32,9 +31,9 @@
     </dependency> 
     
     <dependency>
-      <groupId>net.ogalab</groupId>
-      <artifactId>SimpleUtil</artifactId>
-      <version>6.0.3</version>
+    	<groupId>net.ogalab</groupId>
+    	<artifactId>SimpleUtil</artifactId>
+    	<version>8.0.3</version>
     </dependency>
     
   </dependencies>
@@ -44,8 +43,8 @@
       <plugin>
 	<artifactId>maven-compiler-plugin</artifactId>
 	<configuration>
-	  <source>1.6</source>
-	  <target>1.6</target>
+	  <source>1.8</source>
+	  <target>1.8</target>
 	  <encoding>UTF-8</encoding>
 	</configuration>
       </plugin> 
